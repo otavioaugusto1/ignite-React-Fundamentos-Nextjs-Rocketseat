@@ -16,8 +16,12 @@ interface HomeProps{
   }
 }
 export default function Home({product} : HomeProps) {
+  /* Essa tag "Head", ela serve como a tag head de um HTML, ou seja,
+  para estilização
+  */
   return (
     <>
+    
     <Head>
         <title>Início | ig.news</title>
     </Head>

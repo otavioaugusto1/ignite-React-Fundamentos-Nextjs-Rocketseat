@@ -1,6 +1,9 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 export default class MyDocument extends Document {
+    /* aqui é como se fosse o public/index.html de um react 
+    normal, só que utilizando tags do Next.js
+    */
     render() {
         return (
             <Html>

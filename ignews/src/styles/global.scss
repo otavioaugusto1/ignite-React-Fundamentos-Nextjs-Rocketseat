@@ -33,11 +33,11 @@ body, input, textarea, select, button{
     font: 400 1rem "Roboto", sans-serif;
 }
 button{
-    cursor: pointer;
+    cursor: pointer; // mudando quando coloca o mouse em cima da tag
 }
 
 a{
-    color: inherit;
-    text-decoration: none;
+    color: inherit; //tirar a cor azul e deixar como a cor do pai.
+    text-decoration: none; // tirar o "_" em baixo dos nomes
 }
 
